@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Bangers', cursive;
+    src: url('https://fonts.googleapis.com/css?family=Bangers');
+}
+
+body { 
+margin: 0; 
+background-color: #a76244; 
+}
+
+#header { 
+text-align: center; 
+border-bottom: 1px solid black;
+background-color: #d3a692;
+}
+
+div.comic { 
+display: inline;
+ -moz-transform: skewX(10deg);
+ -webkit-transform: skewX(10deg);
+transform: skewX(10deg); 
+width: 350px; 
+height: 550px;
+margin-left: 305px;
+margin-top: 50px; 
+padding-top: 50px;
+}
+
+div.comic img {
+ -moz-transform: skewX(10deg);
+ -webkit-transform: skewX(10deg);
+transform: skewX(10deg);  
+height: 550px; 
+width: 350px; 
+margin-left: 105px;
+margin-top: 50px; 
+padding-top: 50px;
+}
+
+div.desc {  
+text-align: center;     
+font-weight: normal; 
+font-size: 2em;
+font-family: 'Bangers', cursive;     
+width: 550px;
+height: 550px;
+line-height: 50px;     
+margin-top: -555px; 
+margin-bottom: 50px; 
+margin-left: 705px;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 25px;
+padding-bottom: 225px;
+}
+
+.description { 
+margin-left: 905px;
+margin-top: -555px;
+margin-bottom: 50px;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 25px;
+padding-bottom: 225px; 
+background-color: white;     
+border: 1px solid black; 
+width: 550px;
+height: 550px;
+line-height: 50px;         
+max-width: 900px;	    
+text-align: center; 
+font-size: 2em;
+font-family: 'Bangers', cursive;
+}
+
+/* unvisited link */
+a:link {    
+color: blue;
+}
+
+/* visited link */
+a:visited {    
+color: blue;
+}
+
+/* mouse over link */
+a:hover {    
+color: red;
+}
+
+.clear {     
+clear: both;
+}
+
+
+#footer {
+background-color: #d3a692;
+text-align: left;
+border-top: 1px solid black;
+margin-top: 50px;
+padding-bottom: 0.5px;
+font-family: 'Bangers', cursive;
+font-size: 2em;
+}

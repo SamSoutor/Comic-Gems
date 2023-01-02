@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Bangers', cursive;
+    src: url('https://fonts.googleapis.com/css?family=Bangers');
+}
+
+body {
+ margin: 0;
+ background-color: #a76244; 
+}
+
+#header {
+ text-align: center;
+ border-bottom: 1px solid black;
+ background-color: #d3a692;
+}
+
+div.comic {
+ display: inline;
+ float: left;
+ -moz-perspective: 500;
+ -webkit-perspective: 500;
+ -moz-transform-style: preserve-3d;
+ -webkit-transform-style: preserve-3d;
+ -moz-transition-property: perspective;
+ -webkit-transition-property: perspective;
+ -moz-transition-duration: 0.5s;
+ -webkit-transition-duration: 0.5s;
+ width: 250px;
+ height: 250px;
+ margin-left: 145px;
+ margin-right: -40px;    
+ margin-bottom: 55px;
+ padding-bottom: 0;
+}
+
+div.comic:hover {
+-moz-perspective: 5000;
+-webkit-perspective: 5000;
+}
+
+div.comic img {
+ -moz-transform: rotateY(30deg);
+ -webkit-transform: rotateY(30deg);
+ -moz-box-shadow: 0 3px 10px #000;
+ -webkit-box-shadow: 0 3px 10px #000;
+ -moz-transition-property: transform;
+ -webkit-transition-property: transform;
+ -moz-transition-duration: 0.5s;
+ -webkit-transition-duration: 0.5s;
+ height: 250px;
+ width: 250px;
+ margin-left: 145px;
+ margin-right: -40px;    
+ margin-bottom: 55px;
+ padding-bottom: 0;
+}
+
+div.comic:hover img {
+-moz-transform: rotateY(0deg);
+-webkit-transform: rotateY(0deg);
+}
+
+#wrapper {
+ width: 1500px;
+ max-width: 1500px;
+ margin-top: 35px;
+}
+
+div.desc { 
+ text-align: center;    
+ font-weight: normal;
+ font-size: 2em;
+ font-family: 'Bangers', cursive;    
+ width: 990px;    
+ margin-top: -450px;
+ margin-bottom: auto;
+ margin-left: 250px;
+ padding-left: 25px;
+ padding-right: 25px;
+}
+
+.description {
+ margin: 10px auto;
+ padding-left: 25px;
+ padding-right: 25px;
+ background-color: white;    
+ border: 1px solid black;
+ width: 990px;        
+ max-width: 900px;	   
+ text-align: center;
+ font-size: 2em;
+ font-family: 'Bangers', cursive;
+}
+
+.clear {    
+ clear: both;
+}
+
+#footer {
+background-color: #d3a692;
+text-align: left;
+border-top: 1px solid black;
+margin-top: 650px;
+padding-bottom: 0.5px;
+font-family: 'Bangers', cursive;
+font-size: 2em;
+}
